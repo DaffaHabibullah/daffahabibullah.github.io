@@ -1,19 +1,46 @@
 html, body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+body {
+    background-color: lightskyblue;
 }
 
 .card1 {
     background-color: bisque;
-    width: 300px;
-    height: 350px;
+    width: 350px;
     margin: 8px;
     padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
 
+.card1 > P {
+    text-align: left;
 }
 
 .card1 > img {
-   width: 300px;
+   width: 350px;
+   border-radius: 8px;
+}
+
+
+#buttonTambah1, #buttonTambah10 {
+    width: 125px;
+    height: 40px;
+    margin: 20px 8px;
+    border: 2px solid brown;
+    border-radius: 20px;
+}
+
+#buttonTambah1:hover {
+    background-color: beige;
+}
+
+#buttonTambah10:hover {
+    background-color: beige;
 }
